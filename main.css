@@ -1,0 +1,33 @@
+:root {
+    --color1: #77001d;
+    --color2: #FFFFFF;
+    --color3: #f1e3e3;
+}
+
+body {
+    background: var(--color1);
+    color: var(--color2);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    color:  var(--color3);
+}
+
+a:hover {
+    font-size: 20px; 
+}
+
+li {
+    padding: 20px;
+}
+
+ul {
+    border: 4px solid black;
+    width: 50%;
+}
